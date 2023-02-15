@@ -5,15 +5,15 @@ import Testimonial from '../../components/HomeSections/Testimonial/Testimonial';
 import Team from '../../components/HomeSections/Team/Team';
 
 function Home() {
-  return (
-    <div>
-      <Hero />
-      <HowItWorks />
-      <Testimonial />
-      <Donators />
-      <Team />
-    </div>
-  );
+    return (
+        <div>
+            <Hero />
+            <HowItWorks />
+            <Testimonial />
+            <Donators />
+            <Team />
+        </div>
+    );
 }
 
 export default Home;

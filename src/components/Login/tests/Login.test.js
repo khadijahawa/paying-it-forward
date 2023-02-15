@@ -6,16 +6,16 @@ import Login from '../Login';
 import store from '../../../store';
 
 describe('Login Component', () => {
-  it('matches', () => {
-    const tree = renderer
-      .create(
-        <Provider store={store}>
-          <Router>
-            <Login />
-          </Router>
-        </Provider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
+    it('matches', () => {
+        const tree = renderer
+            .create(
+                <Provider store={store}>
+                    <Router>
+                        <Login />
+                    </Router>
+                </Provider>,
+            )
+            .toJSON();
+        expect(tree).toMatchSnapshot();
+    });
 });
