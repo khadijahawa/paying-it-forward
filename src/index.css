@@ -30,10 +30,7 @@ code {
 }
 
 .search:focus + .searchbutton {
-    transition-duration: 0.4s;
-    -moz-transition-duration: 0.4s;
-    -webkit-transition-duration: 0.4s;
-    -o-transition-duration: 0.4s;
+    transition: 1s;
     background-color: white;
     color: black;
 }
@@ -47,10 +44,7 @@ code {
     width: 0;
     height: 100%;
     z-index: 10;
-    transition-duration: 0.4s;
-    -moz-transition-duration: 0.4s;
-    -webkit-transition-duration: 0.4s;
-    -o-transition-duration: 0.4s;
+    transition: 1s;
 }
 
 .search:focus {
